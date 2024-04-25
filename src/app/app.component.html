@@ -1,0 +1,45 @@
+
+
+<mat-toolbar color="primary" class="menu-toolbar">
+  <span style="color: black;" class="menu-title">Conversor de Bases</span>
+</mat-toolbar>
+
+<mat-nav-list class="horizontal-list" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center center" fxHide.gt-sm>
+  <a mat-list-item routerLink="/distance" href="distance" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">place</mat-icon> <span class="menu-text">Distancia</span>
+  </a>
+  <a mat-list-item routerLink="/speeds" href="/speeds" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">speed</mat-icon> <span class="menu-text">Velocidad</span>
+  </a>
+  <a mat-list-item routerLink="/temperature" href="/temperature" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">wb_sunny</mat-icon> <span class="menu-text">Temperatura</span>
+  </a>
+  <a mat-list-item routerLink="/base" href="/base" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">list</mat-icon> <span class="menu-text">Bases</span>
+  </a>
+</mat-nav-list>
+
+<mat-nav-list class="vertical-list" fxLayout="column" fxHide.lt-md>
+  <a mat-list-item routerLink="/distance" href="/distance" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">place</mat-icon> <span class="menu-text">Distancia</span>
+  </a>
+  <a mat-list-item routerLink="/speeds" href="/speeds" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">speed</mat-icon> <span class="menu-text">Velocidad</span>
+  </a>
+  <a mat-list-item routerLink="/temperature" href="/temperature" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">wb_sunny</mat-icon> <span class="menu-text">Temperatura</span>
+  </a>
+  <a mat-list-item routerLink="/base" href="/base" routerLinkActive="active-link" class="menu-item">
+    <mat-icon class="menu-icon">list</mat-icon> <span class="menu-text">Bases</span>
+  </a>
+</mat-nav-list>
+<router-outlet></router-outlet>
+<div class="containe" style="text-align: center; padding: 20px;">
+  <h1 #typingTitle class="typing-text">Bienvenido a Convertidor</h1>
+  <p #typingDescription class="description typing-text">
+    Un sitio web diseñado con Angular y Material Design para convertir valores entre bases decimales, binarias, distancias como metros, centímetros y más.
+  </p>
+  <p style="color: #fff; font-size: 18px; padding-top: 10px;">
+    Este sitio web fue elaborado por <strong style="color:aqua;">Ricardo Vallejo Sanchez</strong> utilizando las tecnologías modernas de Angular y Material Design para brindarte una experiencia intuitiva y eficiente en la conversión de valores.
+  </p>
+</div>

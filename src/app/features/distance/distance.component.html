@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="content">
+    <h1 class="mat-h1">Conversor de Distancias</h1>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Valor:</mat-label>
+      <input matInput type="number" placeholder="Ingresa el valor" [(ngModel)]="inputValue" (input)="convertLength()" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Desde:</mat-label>
+      <mat-select [(value)]="fromUnit" (selectionChange)="convertLength()">
+        <mat-option value="metro">Metro</mat-option>
+        <mat-option value="yarda">Yarda</mat-option>
+        <mat-option value="pie">Pie</mat-option>
+        <mat-option value="kilometro">Kilómetro</mat-option>
+        <mat-option value="centimetro">Centímetro</mat-option>
+        <mat-option value="pulgada">Pulgada</mat-option>
+        <mat-option value="legua">Legua</mat-option>
+        <mat-option value="milla">Milla</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Convertir a:</mat-label>
+      <mat-select [(value)]="toUnit" (selectionChange)="convertLength()">
+        <mat-option value="metro">Metro</mat-option>
+        <mat-option value="yarda">Yarda</mat-option>
+        <mat-option value="pie">Pie</mat-option>
+        <mat-option value="kilometro">Kilómetro</mat-option>
+        <mat-option value="centimetro">Centímetro</mat-option>
+        <mat-option value="pulgada">Pulgada</mat-option>
+        <mat-option value="legua">Legua</mat-option>
+        <mat-option value="milla">Milla</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div id="result" class="mat-body-1">
+      <p class="mat-caption">Resultado:</p>
+      <p id="convertedResult">{{ convertedValue }}</p>
+    </div>
+  </div>
+</div>

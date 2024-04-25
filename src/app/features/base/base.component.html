@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="content">
+    <h1 class="mat-h1">Conversor de Bases</h1>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Seleccione la Base:</mat-label>
+      <mat-select [(value)]="selectedBase" (selectionChange)="limpiarResultado()">
+        <mat-option value="decimal">Decimal</mat-option>
+        <mat-option value="binario">Binario</mat-option>
+        <mat-option value="octal">Octal</mat-option>
+        <mat-option value="hexadecimal">Hexadecimal</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Número:</mat-label>
+      <input matInput type="text" placeholder="Ingrese el valor" [(ngModel)]="inputNumero" (input)="convertir()" />
+    </mat-form-field>
+
+    <p class="mat-caption">Resultado:</p>
+    <p>Decimal: <span id="decimal">{{ resultadoDecimal }}</span></p>
+    <p>Binario: <span id="binario">{{ resultadoBinario }}</span></p>
+    <p>Octal: <span id="octal">{{ resultadoOctal }}</span></p>
+    <p>Hexadecimal: <span id="hexadecimal">{{ resultadoHexadecimal }}</span></p>
+  </div>
+</div>

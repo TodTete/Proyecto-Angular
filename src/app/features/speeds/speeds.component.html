@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="content">
+    <h1 class="mat-h1">Conversor de Velocidades</h1>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Valor:</mat-label>
+      <input matInput type="number" placeholder="Ingresa el valor" [(ngModel)]="value" (input)="convertSpeed()" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Desde:</mat-label>
+      <mat-select [(value)]="fromUnit" (selectionChange)="convertSpeed()">
+        <mat-option value="metrosPorSegundo">Metros por segundo</mat-option>
+        <mat-option value="kilometrosPorHora">Kilómetros por hora</mat-option>
+        <mat-option value="millasPorHora">Millas por hora</mat-option>
+        <mat-option value="nudos">Nudos</mat-option>
+        <mat-option value="mach">Mach</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Convertir a:</mat-label>
+      <mat-select [(value)]="toUnit" (selectionChange)="convertSpeed()">
+        <mat-option value="metrosPorSegundo">Metros por segundo</mat-option>
+        <mat-option value="kilometrosPorHora">Kilómetros por hora</mat-option>
+        <mat-option value="millasPorHora">Millas por hora</mat-option>
+        <mat-option value="nudos">Nudos</mat-option>
+        <mat-option value="mach">Mach</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div id="result" class="mat-body-1">
+      <p class="mat-caption">Resultado:</p>
+      <p id="convertedResult">{{ convertedValue }}</p>
+    </div>
+  </div>
+</div>

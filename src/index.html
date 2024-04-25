@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Calculadora</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/5.2.3/material-components-web.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/5.2.3/material-components-web.min.js"></script>
+
+</head>
+<body class="mat-typography">
+  
+  <div id="app">
+    <app-root></app-root>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const tabBar = new mdc.tabBar.MDCTabBar(document.querySelector('.mdc-tab-bar'));
+    });
+  </script>
+</body>
+</html>
