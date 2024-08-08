@@ -2,7 +2,7 @@
 
 ## Acerca del Proyecto
 
-Este proyecto fue desarrollado como parte de una práctica escolar para experimentar con el uso de frameworks y diversas herramientas. El objetivo es simular una página web que ofrece servicios de cursos. Durante el desarrollo, se utilizaron las siguientes tecnologías:
+Este proyecto fue desarrollado como parte de una práctica escolar para experimentar con el uso de frameworks y diversas herramientas. El objetivo es crear un sitio capaz de realizar conversiones de valores a otros. Durante el desarrollo, se utilizaron las siguientes tecnologías:
 
 - **Ajax JS** <img src="https://img.icons8.com/color/48/000000/ajax.png" width="24" />
 - **Material Design** <img src="https://img.icons8.com/color/48/000000/material-ui.png" width="24" />
