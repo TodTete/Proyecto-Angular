@@ -1,27 +1,19 @@
-# Calculadora
+<p align="center"><a href="https://angular.io" target="_blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="300"></a></p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+## Acerca del Proyecto
 
-## Development server
+Este proyecto fue desarrollado como parte de una práctica escolar para experimentar con el uso de frameworks y diversas herramientas. El objetivo es simular una página web que ofrece servicios de cursos. Durante el desarrollo, se utilizaron las siguientes tecnologías:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Ajax JS** <img src="https://img.icons8.com/color/48/000000/ajax.png" width="24" />
+- **Material Design** <img src="https://img.icons8.com/color/48/000000/material-ui.png" width="24" />
+- **Bootstrap** <img src="https://img.icons8.com/color/48/000000/bootstrap.png" width="24" />
+- **Node.js** <img src="https://img.icons8.com/color/48/000000/nodejs.png" width="24" />
 
-## Code scaffolding
+## Contacto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **LinkedIn:** [TodTete](https://www.linkedin.com/in/ricardo-vallejo-sanchez-8034a9199/)
+- **Correo Electrónico:** [vallejoricardo3@gmail.com](mailto:vallejoricardo3@gmail.com)
 
-## Build
+## Autor
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Creado por **Ricardo Vallejo Sánchez**.
