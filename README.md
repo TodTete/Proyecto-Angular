@@ -96,7 +96,7 @@ El proyecto busca reforzar conceptos de:
 
 ## 👨‍💻 Autor
 
-Creado por **Ricardo Vallejo Sánchez**
+Creado por **Ricardo Vallejo Sánchez** @TodTete
 🔗 [Repositorio oficial](https://github.com/TodTete/Proyecto-Angular)
 
 ---
