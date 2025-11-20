@@ -89,14 +89,14 @@ El proyecto busca reforzar conceptos de:
 
 ## 📬 Contacto
 
-* 💼 **LinkedIn:** [Ricardo Vallejo Sánchez](https://www.linkedin.com/in/ricardo-vallejo-sanchez-8034a9199/)
+* 💼 **LinkedIn:** [Ricardo Vallejo Sánchez](https://www.linkedin.com/in/ricardovallejosanchez-todtete/)
 * 📧 **Correo Electrónico:** [vallejoricardo3@gmail.com](mailto:vallejoricardo3@gmail.com)
 
 ---
 
 ## 👨‍💻 Autor
 
-Creado por **Ricardo Vallejo Sánchez** @TodTete
+Creado por **Ricardo Vallejo Sánchez** **@TodTete**
 🔗 [Repositorio oficial](https://github.com/TodTete/Proyecto-Angular)
 
 ---
