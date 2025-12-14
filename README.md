@@ -4,10 +4,10 @@
   </a>
 </p>
 
-# 📐 Proyecto Angular – Conversor de Valores
+# 📐 Proyecto Angular – Conversor de Valores 
 
 **Proyecto Angular** es una aplicación desarrollada como parte de una **práctica escolar**, con el objetivo de experimentar con frameworks modernos y distintas herramientas de frontend y backend.  
-La aplicación permite realizar **conversiones de valores** de manera dinámica y sencilla.
+La aplicación permite realizar **conversiones de valores** de manera dinámica y sencilla en tiempo real.
 
 [![Repo](https://img.shields.io/badge/GitHub-TodTete-blue?logo=github)](https://github.com/TodTete/Proyecto-Angular)
 [![Status](https://img.shields.io/badge/status-en%20desarrollo-orange)](#estado)
