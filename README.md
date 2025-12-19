@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 📐 Proyecto Angular – Conversor de Valores 
+# 📐 Proyecto Angular – Conversor de Valores en tiempo real 
 
 **Proyecto Angular** es una aplicación desarrollada como parte de una **práctica escolar**, con el objetivo de experimentar con frameworks modernos y distintas herramientas de frontend y backend.  
 La aplicación permite realizar **conversiones de valores** de manera dinámica y sencilla en tiempo real.
